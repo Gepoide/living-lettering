@@ -19,7 +19,7 @@ function mousePressed() {
       mouseX > (width / 3) * 2 - 130 / 2 &&
       mouseX < (width / 3) * 2 + 130 / 2 &&
       mouseY < height - 10 &&
-      mouseY > height - 25
+      mouseY > height - 35
     ) {
       swt = (swt + 1) % 3;
     }
@@ -28,7 +28,7 @@ function mousePressed() {
       mouseX > width - 140 &&
       mouseX < width &&
       mouseY < height - 10 &&
-      mouseY > height - 25
+      mouseY > height - 35
     ) {
       swt = (swt + 1) % 3;
     }
