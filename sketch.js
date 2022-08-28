@@ -9,6 +9,7 @@ let icon;
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
+  resizeCanvas(windowWidth,windowHeight);
   formaRegular = loadFont(font1);
   suisseBook = loadFont(font2);
   suisseBookItalic = loadFont(font3);
