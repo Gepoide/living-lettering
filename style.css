@@ -15,5 +15,8 @@ html, body {
   position: relative;
 }
 canvas {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   display: block;
 }
