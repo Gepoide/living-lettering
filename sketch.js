@@ -8,8 +8,7 @@ let count;
 let icon;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
-  resizeCanvas(windowWidth,windowHeight);
+  createCanvas(window.innerWidth, window.innerHeight);
   formaRegular = loadFont(font1);
   suisseBook = loadFont(font2);
   suisseBookItalic = loadFont(font3);
@@ -99,5 +98,5 @@ textFont(suisseBook);
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(window.innerWidth, window.innerHeight);
 }
